@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <Compiler Value="/usr/bin/fpc" Date="1594078105"/>
+  <Params Value=" -MObjFPC -Scghi -Cg -O1 -g -gl -l -vewnhibq -Fi/home/martin/Desktop/Programming/Lazarus/Windows/32_bit/Sudoku_Code/Sudoku_Level/lib/x86_64-linux -Fu/home/martin/Desktop/Programming/Lazarus/Windows/32_bit/Timer -Fu/usr/share/lazarus/2.0.12/lcl/units/x86_64-linux/gtk2 -Fu/usr/share/lazarus/2.0.12/lcl/units/x86_64-linux -Fu/usr/share/lazarus/2.0.12/components/lazutils/lib/x86_64-linux -Fu/usr/share/lazarus/2.0.12/packager/units/x86_64-linux -Fu/home/martin/Desktop/Programming/Lazarus/Windows/32_bit/Sudoku_Code/Sudoku_Level/ -FU/home/martin/Desktop/Programming/Lazarus/Windows/32_bit/Sudoku_Code/Sudoku_Level/lib/x86_64-linux/ -FE/home/martin/Desktop/Programming/Lazarus/Windows/32_bit/Sudoku_Code/Sudoku_Level/ -o/home/martin/Desktop/Programming/Lazarus/Windows/32_bit/Sudoku_Code/Sudoku_Level/p_sudoku_level -dLCL -dLCLgtk2 p_sudoku_level.lpr"/>
+  <Complete Value="False"/>
+</CONFIG>

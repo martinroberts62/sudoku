@@ -1,0 +1,1065 @@
+object Form_Sudoku_Level: TForm_Sudoku_Level
+  Left = 307
+  Height = 528
+  Top = 531
+  Width = 803
+  Caption = 'Sudoku'
+  ClientHeight = 508
+  ClientWidth = 803
+  Menu = MainMenu_Level
+  OnActivate = FormActivate
+  Position = poScreenCenter
+  LCLVersion = '2.0.12.0'
+  object GroBox_SudokuSolution: TGroupBox
+    Left = 640
+    Height = 247
+    Top = 24
+    Width = 216
+    Caption = 'Sudoku Solution'
+    ClientHeight = 227
+    ClientWidth = 212
+    TabOrder = 0
+    object StrGri_SudokuSolution: TStringGrid
+      Tag = 1
+      Left = 8
+      Height = 204
+      Top = 8
+      Width = 200
+      ColCount = 10
+      DefaultColWidth = 20
+      DefaultRowHeight = 20
+      RowCount = 10
+      ScrollBars = ssNone
+      TabOrder = 0
+      Cells = (
+        99
+        0
+        1
+        '1'
+        0
+        2
+        '2'
+        0
+        3
+        '3'
+        0
+        4
+        '4'
+        0
+        5
+        '5'
+        0
+        6
+        '6'
+        0
+        7
+        '7'
+        0
+        8
+        '8'
+        0
+        9
+        '9'
+        1
+        0
+        '1'
+        1
+        1
+        '2'
+        1
+        2
+        '4'
+        1
+        3
+        '8'
+        1
+        4
+        '3'
+        1
+        5
+        '6'
+        1
+        6
+        '5'
+        1
+        7
+        '7'
+        1
+        8
+        '9'
+        1
+        9
+        '1'
+        2
+        0
+        '2'
+        2
+        1
+        '9'
+        2
+        2
+        '3'
+        2
+        3
+        '7'
+        2
+        4
+        '8'
+        2
+        5
+        '1'
+        2
+        6
+        '4'
+        2
+        7
+        '6'
+        2
+        8
+        '2'
+        2
+        9
+        '5'
+        3
+        0
+        '3'
+        3
+        1
+        '5'
+        3
+        2
+        '1'
+        3
+        3
+        '6'
+        3
+        4
+        '7'
+        3
+        5
+        '2'
+        3
+        6
+        '9'
+        3
+        7
+        '3'
+        3
+        8
+        '8'
+        3
+        9
+        '4'
+        4
+        0
+        '4'
+        4
+        1
+        '7'
+        4
+        2
+        '8'
+        4
+        3
+        '1'
+        4
+        4
+        '4'
+        4
+        5
+        '3'
+        4
+        6
+        '2'
+        4
+        7
+        '5'
+        4
+        8
+        '6'
+        4
+        9
+        '9'
+        5
+        0
+        '5'
+        5
+        1
+        '4'
+        5
+        2
+        '6'
+        5
+        3
+        '9'
+        5
+        4
+        '5'
+        5
+        5
+        '8'
+        5
+        6
+        '1'
+        5
+        7
+        '2'
+        5
+        8
+        '7'
+        5
+        9
+        '3'
+        6
+        0
+        '6'
+        6
+        1
+        '3'
+        6
+        2
+        '5'
+        6
+        3
+        '2'
+        6
+        4
+        '9'
+        6
+        5
+        '7'
+        6
+        6
+        '6'
+        6
+        7
+        '4'
+        6
+        8
+        '1'
+        6
+        9
+        '8'
+        7
+        0
+        '7'
+        7
+        1
+        '8'
+        7
+        2
+        '9'
+        7
+        3
+        '5'
+        7
+        4
+        '2'
+        7
+        5
+        '4'
+        7
+        6
+        '7'
+        7
+        7
+        '1'
+        7
+        8
+        '3'
+        7
+        9
+        '6'
+        8
+        0
+        '8'
+        8
+        1
+        '6'
+        8
+        2
+        '2'
+        8
+        3
+        '4'
+        8
+        4
+        '1'
+        8
+        5
+        '9'
+        8
+        6
+        '3'
+        8
+        7
+        '8'
+        8
+        8
+        '5'
+        8
+        9
+        '7'
+        9
+        0
+        '9'
+        9
+        1
+        '1'
+        9
+        2
+        '7'
+        9
+        3
+        '3'
+        9
+        4
+        '6'
+        9
+        5
+        '5'
+        9
+        6
+        '8'
+        9
+        7
+        '9'
+        9
+        8
+        '4'
+        9
+        9
+        '2'
+      )
+    end
+  end
+  object GroBox_SudokuGrid: TGroupBox
+    Left = 336
+    Height = 266
+    Top = 16
+    Width = 216
+    Caption = 'Sudoku Grid'
+    ClientHeight = 246
+    ClientWidth = 212
+    TabOrder = 1
+    Visible = False
+    object StrGri_SudokuGrid: TStringGrid
+      Tag = 1
+      Left = 8
+      Height = 204
+      Top = 32
+      Width = 200
+      ColCount = 10
+      DefaultColWidth = 20
+      DefaultRowHeight = 20
+      RowCount = 10
+      ScrollBars = ssNone
+      TabOrder = 0
+      Cells = (
+        18
+        0
+        1
+        '1'
+        0
+        2
+        '2'
+        0
+        3
+        '3'
+        0
+        4
+        '4'
+        0
+        5
+        '5'
+        0
+        6
+        '6'
+        0
+        7
+        '7'
+        0
+        8
+        '8'
+        0
+        9
+        '9'
+        1
+        0
+        '1'
+        2
+        0
+        '2'
+        3
+        0
+        '3'
+        4
+        0
+        '4'
+        5
+        0
+        '5'
+        6
+        0
+        '6'
+        7
+        0
+        '7'
+        8
+        0
+        '8'
+        9
+        0
+        '9'
+      )
+    end
+  end
+  object GroBox_SudokuPuzzle: TGroupBox
+    Left = 72
+    Height = 265
+    Top = 16
+    Width = 240
+    Caption = 'Sudoku Puzzle'
+    ClientHeight = 245
+    ClientWidth = 236
+    TabOrder = 2
+    object StrGri_SudokuPuzzle: TStringGrid
+      Tag = 1
+      Left = 16
+      Height = 204
+      Top = 32
+      Width = 206
+      Color = clDefault
+      ColCount = 10
+      DefaultColWidth = 20
+      DefaultRowHeight = 20
+      RowCount = 10
+      ScrollBars = ssNone
+      TabOrder = 0
+      OnDragDrop = StrGri_SudokuPuzzleDragDrop
+      OnDragOver = StrGri_SudokuPuzzleDragOver
+      OnDrawCell = StrGri_SudokuPuzzleDrawCell
+      Cells = (
+        18
+        0
+        1
+        '1'
+        0
+        2
+        '2'
+        0
+        3
+        '3'
+        0
+        4
+        '4'
+        0
+        5
+        '5'
+        0
+        6
+        '6'
+        0
+        7
+        '7'
+        0
+        8
+        '8'
+        0
+        9
+        '9'
+        1
+        0
+        '1'
+        2
+        0
+        '2'
+        3
+        0
+        '3'
+        4
+        0
+        '4'
+        5
+        0
+        '5'
+        6
+        0
+        '6'
+        7
+        0
+        '7'
+        8
+        0
+        '8'
+        9
+        0
+        '9'
+      )
+    end
+    object Lab_DifficultyRating: TLabel
+      Left = 16
+      Height = 15
+      Top = 7
+      Width = 85
+      Caption = 'Difficulty Rating'
+      ParentColor = False
+    end
+  end
+  object GroBox_Timer_Puzzle: TGroupBox
+    Left = 72
+    Height = 200
+    Top = 288
+    Width = 312
+    ClientHeight = 180
+    ClientWidth = 308
+    TabOrder = 3
+    object GroBox_Puzzle: TGroupBox
+      Left = 18
+      Height = 164
+      Top = 0
+      Width = 256
+      Caption = 'Puzzle'
+      ClientHeight = 144
+      ClientWidth = 252
+      TabOrder = 0
+      object ComBox_BMA: TComboBox
+        Left = 32
+        Height = 23
+        Top = 8
+        Width = 72
+        ItemHeight = 15
+        OnChange = ComBox_BMAChange
+        TabOrder = 0
+      end
+      object But_New_Puzzle: TButton
+        Left = 144
+        Height = 25
+        Top = 8
+        Width = 75
+        Caption = 'New Puzzle'
+        OnClick = But_New_PuzzleClick
+        TabOrder = 1
+      end
+      object GroBox_SelectCharacter: TGroupBox
+        Left = 8
+        Height = 88
+        Top = 48
+        Width = 232
+        Caption = 'Select Character'
+        ClientHeight = 68
+        ClientWidth = 228
+        TabOrder = 2
+        object StrGri_SelectCharacter: TStringGrid
+          Tag = 1
+          Left = 13
+          Height = 42
+          Top = 16
+          Width = 203
+          ColCount = 10
+          DefaultColWidth = 20
+          DefaultRowHeight = 20
+          RowCount = 10
+          ScrollBars = ssNone
+          TabOrder = 0
+          OnDragOver = StrGri_SelectCharacterDragOver
+          OnDrawCell = StrGri_SelectCharacterDrawCell
+          OnMouseDown = StrGri_SelectCharacterMouseDown
+          Cells = (
+            19
+            0
+            1
+            '1'
+            1
+            0
+            '1'
+            1
+            1
+            '1'
+            2
+            0
+            '2'
+            2
+            1
+            '2'
+            3
+            0
+            '3'
+            3
+            1
+            '3'
+            4
+            0
+            '4'
+            4
+            1
+            '4'
+            5
+            0
+            '5'
+            5
+            1
+            '5'
+            6
+            0
+            '6'
+            6
+            1
+            '6'
+            7
+            0
+            '7'
+            7
+            1
+            '7'
+            8
+            0
+            '8'
+            8
+            1
+            '8'
+            9
+            0
+            '9'
+            9
+            1
+            '9'
+          )
+        end
+      end
+    end
+    object GroBox_Timer: TGroupBox
+      Left = 56
+      Height = 56
+      Top = 0
+      Width = 190
+      Caption = 'Timer'
+      ClientHeight = 36
+      ClientWidth = 186
+      TabOrder = 1
+      Visible = False
+      object Lab_Minute: TLabel
+        Left = 16
+        Height = 19
+        Top = 8
+        Width = 27
+        Caption = 'Min'
+        Font.CharSet = ANSI_CHARSET
+        Font.Color = clBlack
+        Font.Height = -16
+        Font.Name = 'Arial'
+        Font.Pitch = fpVariable
+        Font.Quality = fqDraft
+        Font.Style = [fsBold]
+        ParentColor = False
+        ParentFont = False
+      end
+      object Lab_TimeMinute: TLabel
+        Left = 60
+        Height = 19
+        Top = 8
+        Width = 18
+        Caption = '00'
+        Font.CharSet = ANSI_CHARSET
+        Font.Color = clBlack
+        Font.Height = -16
+        Font.Name = 'Arial'
+        Font.Pitch = fpVariable
+        Font.Quality = fqDraft
+        Font.Style = [fsBold]
+        ParentColor = False
+        ParentFont = False
+      end
+      object Lab_Second: TLabel
+        Left = 96
+        Height = 19
+        Top = 8
+        Width = 29
+        Caption = 'Sec'
+        Font.CharSet = ANSI_CHARSET
+        Font.Color = clBlack
+        Font.Height = -16
+        Font.Name = 'Arial'
+        Font.Pitch = fpVariable
+        Font.Quality = fqDraft
+        Font.Style = [fsBold]
+        ParentColor = False
+        ParentFont = False
+      end
+      object Lab_TimeSecond: TLabel
+        Left = 144
+        Height = 19
+        Top = 8
+        Width = 18
+        Caption = '00'
+        Font.CharSet = ANSI_CHARSET
+        Font.Color = clBlack
+        Font.Height = -16
+        Font.Name = 'Arial'
+        Font.Pitch = fpVariable
+        Font.Quality = fqDraft
+        Font.Style = [fsBold]
+        ParentColor = False
+        ParentFont = False
+      end
+      object Lab_Minute_Separator: TLabel
+        Left = 48
+        Height = 19
+        Top = 8
+        Width = 5
+        Caption = '-'
+        Font.CharSet = ANSI_CHARSET
+        Font.Color = clBlack
+        Font.Height = -16
+        Font.Name = 'Arial'
+        Font.Pitch = fpVariable
+        Font.Quality = fqDraft
+        Font.Style = [fsBold]
+        ParentColor = False
+        ParentFont = False
+      end
+      object Shape_2nd_Separator: TShape
+        Left = 83
+        Height = 33
+        Top = 0
+        Width = 5
+      end
+      object Shape_1st_Separator: TShape
+        Left = 0
+        Height = 33
+        Top = 0
+        Width = 5
+      end
+      object Lab_Second_Separator: TLabel
+        Left = 130
+        Height = 19
+        Top = 8
+        Width = 5
+        Caption = '-'
+        Font.CharSet = ANSI_CHARSET
+        Font.Color = clBlack
+        Font.Height = -16
+        Font.Name = 'Arial'
+        Font.Pitch = fpVariable
+        Font.Quality = fqDraft
+        Font.Style = [fsBold]
+        ParentColor = False
+        ParentFont = False
+      end
+      object Shape_3rd_Separator: TShape
+        Left = 176
+        Height = 33
+        Top = 0
+        Width = 5
+      end
+      object Shape_4th_Separator: TShape
+        Left = 280
+        Height = 33
+        Top = 0
+        Width = 5
+        Visible = False
+      end
+      object But_Pause: TButton
+        Left = 192
+        Height = 25
+        Top = 2
+        Width = 75
+        Caption = 'Pause'
+        OnClick = But_PauseClick
+        TabOrder = 0
+        Visible = False
+      end
+    end
+  end
+  object GroBox_Ratings: TGroupBox
+    Left = 640
+    Height = 272
+    Top = 280
+    Width = 216
+    Caption = 'Ratings'
+    ClientHeight = 252
+    ClientWidth = 212
+    TabOrder = 4
+    Visible = False
+    object StrGri_Ratings: TStringGrid
+      Tag = 1
+      Left = 8
+      Height = 204
+      Top = 8
+      Width = 200
+      ColCount = 10
+      DefaultColWidth = 20
+      DefaultRowHeight = 20
+      RowCount = 10
+      ScrollBars = ssNone
+      TabOrder = 0
+      Cells = (
+        18
+        0
+        1
+        '1'
+        0
+        2
+        '2'
+        0
+        3
+        '3'
+        0
+        4
+        '4'
+        0
+        5
+        '5'
+        0
+        6
+        '6'
+        0
+        7
+        '7'
+        0
+        8
+        '8'
+        0
+        9
+        '9'
+        1
+        0
+        '1'
+        2
+        0
+        '2'
+        3
+        0
+        '3'
+        4
+        0
+        '4'
+        5
+        0
+        '5'
+        6
+        0
+        '6'
+        7
+        0
+        '7'
+        8
+        0
+        '8'
+        9
+        0
+        '9'
+      )
+    end
+    object Memo1: TMemo
+      Left = 24
+      Height = 33
+      Top = 224
+      Width = 33
+      TabOrder = 1
+    end
+    object Memo_Ratings: TMemo
+      Left = 72
+      Height = 33
+      Top = 223
+      Width = 33
+      TabOrder = 2
+    end
+  end
+  object GroBox_NineCharacters: TGroupBox
+    Left = 408
+    Height = 80
+    Top = 280
+    Width = 219
+    Caption = 'Nine Characters'
+    ClientHeight = 60
+    ClientWidth = 215
+    TabOrder = 5
+    Visible = False
+    object StrGri_NineCharacters: TStringGrid
+      Tag = 1
+      Left = 8
+      Height = 42
+      Top = 8
+      Width = 203
+      ColCount = 10
+      DefaultColWidth = 20
+      DefaultRowHeight = 20
+      RowCount = 10
+      ScrollBars = ssNone
+      TabOrder = 0
+      Cells = (
+        19
+        0
+        1
+        '1'
+        1
+        0
+        '1'
+        1
+        1
+        '1'
+        2
+        0
+        '2'
+        2
+        1
+        '2'
+        3
+        0
+        '3'
+        3
+        1
+        '3'
+        4
+        0
+        '4'
+        4
+        1
+        '4'
+        5
+        0
+        '5'
+        5
+        1
+        '5'
+        6
+        0
+        '6'
+        6
+        1
+        '6'
+        7
+        0
+        '7'
+        7
+        1
+        '7'
+        8
+        0
+        '8'
+        8
+        1
+        '8'
+        9
+        0
+        '9'
+        9
+        1
+        '9'
+      )
+    end
+  end
+  object MainMenu_Level: TMainMenu
+    Left = 448
+    Top = 424
+    object MenuItem_Settings: TMenuItem
+      Caption = 'Settings :-'
+    end
+    object MenuItem_File: TMenuItem
+      Caption = 'File'
+      object MenuItem_Save: TMenuItem
+        Caption = 'Save'
+        OnClick = MenuItem_SaveClick
+      end
+      object MenuItem_Load: TMenuItem
+        Caption = 'Load'
+        OnClick = MenuItem_LoadClick
+      end
+    end
+    object MenuItem_Level: TMenuItem
+      Caption = 'Level'
+      object MenuItem_Beginner: TMenuItem
+        Caption = 'Beginner'
+        Checked = True
+        OnClick = MenuItem_BeginnerClick
+      end
+      object MenuItem_Medium: TMenuItem
+        Caption = 'Medium'
+        OnClick = MenuItem_MediumClick
+      end
+      object MenuItem_Advanced: TMenuItem
+        Caption = 'Advanced'
+        OnClick = MenuItem_AdvancedClick
+      end
+    end
+    object MenuItem_Select: TMenuItem
+      Caption = 'Select'
+      object MenuItem_1_to_9: TMenuItem
+        Caption = '( 1 - 9 )'
+        Checked = True
+        OnClick = MenuItem_1_to_9Click
+      end
+      object MenuItem_Char: TMenuItem
+        Caption = '( A - I )'
+        OnClick = MenuItem_CharClick
+      end
+      object MenuItem_New_Grid: TMenuItem
+        Caption = 'New Grid'
+        OnClick = MenuItem_New_GridClick
+      end
+      object MenuItem_Select_Separator_1: TMenuItem
+        Caption = '-'
+      end
+      object MenuItem_Colours: TMenuItem
+        Caption = 'Colours'
+        OnClick = MenuItem_ColoursClick
+      end
+    end
+    object MenuItem_A_to_I: TMenuItem
+      Caption = '( A - I ) '
+      Visible = False
+      OnClick = MenuItem_A_to_IClick
+    end
+    object MenuItem_Solution: TMenuItem
+      Caption = 'Solution'
+      object MenuItem_Show_Solution: TMenuItem
+        Caption = 'Show'
+        OnClick = MenuItem_Show_SolutionClick
+      end
+      object MenuItem_Hide_Solution: TMenuItem
+        Caption = 'Hide'
+        Checked = True
+        OnClick = MenuItem_Hide_SolutionClick
+      end
+    end
+    object MenuItem_Timer: TMenuItem
+      Caption = 'Timer'
+      Visible = False
+      object MenuItem_Show_Timer: TMenuItem
+        Caption = 'Show'
+        OnClick = MenuItem_Show_TimerClick
+      end
+      object MenuItem_Hide_Timer: TMenuItem
+        Caption = 'Hide'
+        Checked = True
+        OnClick = MenuItem_Hide_TimerClick
+      end
+    end
+    object MenuItem_Close: TMenuItem
+      Caption = 'Close'
+      OnClick = MenuItem_CloseClick
+    end
+  end
+  object SaveDial_SudokuGrids: TSaveDialog
+    Left = 520
+    Top = 368
+  end
+  object OpenDial_SudokuGrids: TOpenDialog
+    Left = 400
+    Top = 368
+  end
+  object Time_Minute: TTimer
+    Enabled = False
+    Interval = 60000
+    OnTimer = Time_MinuteTimer
+    Left = 32
+    Top = 264
+  end
+  object Time_Second: TTimer
+    Enabled = False
+    OnTimer = Time_SecondTimer
+    Left = 32
+    Top = 328
+  end
+end
