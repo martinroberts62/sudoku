@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="11"/>
+    <BuildModes Active="Default"/>
+    <Units Count="11">
+      <Unit0>
+        <Filename Value="p_sudoku_level.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="2"/>
+        <CursorPos X="38" Y="10"/>
+        <UsageCount Value="217"/>
+        <Loaded Value="True"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="f_sudoku.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="Form_Sudoku_Level"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <IsVisibleTab Value="True"/>
+        <TopLine Value="1346"/>
+        <CursorPos X="44" Y="1394"/>
+        <UsageCount Value="217"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="f_alternative_grid.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="Form_AlternativeGrid"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="1"/>
+        <TopLine Value="37"/>
+        <CursorPos Y="65"/>
+        <UsageCount Value="203"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="..\..\Timer\f_timer.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="Form_Timer"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="27"/>
+        <CursorPos X="30" Y="61"/>
+        <UsageCount Value="202"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="C:\lazarus_32\lcl\include\control.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="3917"/>
+        <CursorPos Y="3945"/>
+        <UsageCount Value="80"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="C:\lazarus_32\lcl\grids.pas"/>
+        <UnitName Value="Grids"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="9709"/>
+        <CursorPos Y="9737"/>
+        <UsageCount Value="8"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="Save\1_Easy\Compl\Number\879.txt"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="53"/>
+        <UsageCount Value="5"/>
+        <DefaultSyntaxHighlighter Value="None"/>
+      </Unit6>
+      <Unit7>
+        <Filename Value="Save\1_Easy\Grids\Number\879.txt"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="5"/>
+        <DefaultSyntaxHighlighter Value="None"/>
+      </Unit7>
+      <Unit8>
+        <Filename Value="Save\1_Easy\Compl\Number\84.txt"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="5"/>
+        <DefaultSyntaxHighlighter Value="None"/>
+      </Unit8>
+      <Unit9>
+        <Filename Value="Save\1_Easy\Timer\Number\stephen.txt"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="5"/>
+        <DefaultSyntaxHighlighter Value="None"/>
+      </Unit9>
+      <Unit10>
+        <Filename Value="C:\lazarus_32\components\lazutils\lazutf8classes.pas"/>
+        <UnitName Value="LazUTF8Classes"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="123"/>
+        <CursorPos Y="151"/>
+        <UsageCount Value="8"/>
+      </Unit10>
+    </Units>
+    <JumpHistory Count="30" HistoryIndex="29">
+      <Position1>
+        <Filename Value="f_sudoku.pas"/>
+        <Caret Line="671" Column="15" TopLine="648"/>
+      </Position1>
+      <Position2>
+        <Filename Value="f_sudoku.pas"/>
+        <Caret Line="699" Column="91" TopLine="661"/>
+      </Position2>
+      <Position3>
+        <Filename Value="f_alternative_grid.pas"/>
+        <Caret Line="65" TopLine="37"/>
+      </Position3>
+      <Position4>
+        <Filename Value="f_sudoku.pas"/>
+        <Caret Line="699" Column="91" TopLine="661"/>
+      </Position4>
+      <Position5>
+        <Filename Value="f_sudoku.pas"/>
+        <Caret Line="673" Column="12" TopLine="639"/>
+      </Position5>
+      <Position6>
+        <Filename Value="f_sudoku.pas"/>
+        <Caret Line="672" Column="57" TopLine="639"/>
+      </Position6>
+      <Position7>
+        <Filename Value="f_sudoku.pas"/>
+        <Caret Line="674" Column="13" TopLine="653"/>
+      </Position7>
+      <Position8>
+        <Filename Value="f_sudoku.pas"/>
+        <Caret Line="687" Column="15" TopLine="646"/>
+      </Position8>
+      <Position9>
+        <Filename Value="f_sudoku.pas"/>
+        <Caret Line="1449" Column="27" TopLine="1430"/>
+      </Position9>
+      <Position10>
+        <Filename Value="f_sudoku.pas"/>
+        <Caret Line="694" Column="43" TopLine="547"/>
+      </Position10>
+      <Position11>
+        <Filename Value="f_sudoku.pas"/>
+        <Caret Line="1436" TopLine="1434"/>
+      </Position11>
+      <Position12>
+        <Filename Value="f_sudoku.pas"/>
+        <Caret Line="1437" Column="33" TopLine="1412"/>
+      </Position12>
+      <Position13>
+        <Filename Value="f_sudoku.pas"/>
+        <Caret Line="1451" Column="54" TopLine="1425"/>
+      </Position13>
+      <Position14>
+        <Filename Value="f_sudoku.pas"/>
+        <Caret Line="1462" Column="56" TopLine="1434"/>
+      </Position14>
+      <Position15>
+        <Filename Value="f_sudoku.pas"/>
+        <Caret Line="695" Column="80" TopLine="649"/>
+      </Position15>
+      <Position16>
+        <Filename Value="f_sudoku.pas"/>
+        <Caret Line="1630" TopLine="1623"/>
+      </Position16>
+      <Position17>
+        <Filename Value="f_sudoku.pas"/>
+        <Caret Line="234" Column="5" TopLine="214"/>
+      </Position17>
+      <Position18>
+        <Filename Value="f_sudoku.pas"/>
+        <Caret Line="1377" Column="10" TopLine="1351"/>
+      </Position18>
+      <Position19>
+        <Filename Value="f_sudoku.pas"/>
+        <Caret Line="1416" Column="3" TopLine="1411"/>
+      </Position19>
+      <Position20>
+        <Filename Value="f_sudoku.pas"/>
+        <Caret Line="1376" Column="8" TopLine="1355"/>
+      </Position20>
+      <Position21>
+        <Filename Value="f_sudoku.pas"/>
+        <Caret Line="1398" Column="85" TopLine="1390"/>
+      </Position21>
+      <Position22>
+        <Filename Value="f_sudoku.pas"/>
+        <Caret Line="1374" Column="10" TopLine="1340"/>
+      </Position22>
+      <Position23>
+        <Filename Value="f_sudoku.pas"/>
+        <Caret Line="1401" Column="10" TopLine="1392"/>
+      </Position23>
+      <Position24>
+        <Filename Value="f_sudoku.pas"/>
+        <Caret Line="1279" Column="3" TopLine="1333"/>
+      </Position24>
+      <Position25>
+        <Filename Value="f_sudoku.pas"/>
+        <Caret Line="1398" Column="2" TopLine="1393"/>
+      </Position25>
+      <Position26>
+        <Filename Value="f_sudoku.pas"/>
+        <Caret Line="1397" Column="3" TopLine="1390"/>
+      </Position26>
+      <Position27>
+        <Filename Value="f_sudoku.pas"/>
+        <Caret Line="1361" Column="54" TopLine="1343"/>
+      </Position27>
+      <Position28>
+        <Filename Value="f_sudoku.pas"/>
+        <Caret Line="477" Column="32" TopLine="463"/>
+      </Position28>
+      <Position29>
+        <Filename Value="f_sudoku.pas"/>
+        <Caret Line="560" Column="40" TopLine="505"/>
+      </Position29>
+      <Position30>
+        <Filename Value="f_sudoku.pas"/>
+        <Caret Line="626" Column="31" TopLine="611"/>
+      </Position30>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes Count="0" ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>
